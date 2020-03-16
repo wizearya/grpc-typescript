@@ -1,12 +1,9 @@
-# grpc-sample
-
 ## Description
-Sample implementation of gRPC with typescript
+gRPC with typescript
 
 
 ## Requirement
 - protobuf
-
 
 ## Usage
 1. install protobuf by homebrew
