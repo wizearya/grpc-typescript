@@ -8,7 +8,7 @@ function serialize_test_user_UsersReply(arg) {
   if (!(arg instanceof service_pb.UsersReply)) {
     throw new Error('Expected argument of type test_user.UsersReply');
   }
-  return new Buffer(arg.serializeBinary());
+  return Buffer.from(arg.serializeBinary());
 }
 
 function deserialize_test_user_UsersReply(buffer_arg) {
@@ -19,7 +19,7 @@ function serialize_test_user_UsersRequest(arg) {
   if (!(arg instanceof service_pb.UsersRequest)) {
     throw new Error('Expected argument of type test_user.UsersRequest');
   }
-  return new Buffer(arg.serializeBinary());
+  return Buffer.from(arg.serializeBinary());
 }
 
 function deserialize_test_user_UsersRequest(buffer_arg) {

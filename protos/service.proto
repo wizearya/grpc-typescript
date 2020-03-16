@@ -1,14 +1,9 @@
 syntax = "proto3";
-import "google/api/annotations.proto";
 
 package test_user;
 
 service UserDomain {
-    rpc getUsers (UsersRequest) returns (UsersReply) {
-        option(google.api.http) = {
-            get: "/users"
-        };
-    };
+    rpc getUsers (UsersRequest) returns (UsersReply);
 }
 
 // user info
@@ -37,5 +32,3 @@ message UsersReply {
     // list of users
     repeated User users = 1;
 }
-
-

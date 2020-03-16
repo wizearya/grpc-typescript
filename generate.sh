@@ -10,10 +10,4 @@ protoc \
 --plugin=protoc-gen-ts="${PLUGIN_TS}" \
 --proto_path=./protos/ \
 -I $DIST_DIR \
--I$GOPATH/src/github.com/grpc-ecosystem/grpc-gateway/third_party/googleapis \
---go_out=plugins=grpc:./gateway/protos \
---grpc-gateway_out=logtostderr=true:./gateway/protos  \
 ./protos/*.proto
-
-# remove javascript require ('./annotations_pb')
-find src/protos  -exec sed -i '' -e '/annotations_pb/d' {} \;
