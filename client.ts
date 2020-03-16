@@ -4,7 +4,7 @@ import {UsersReply, UsersRequest} from './src/protos/service_pb'
 
 
 const client: IUserDomainClient = new UserDomainClient(
-  `localhost:8080`,
+  `localhost:50051`,
   credentials.createInsecure()
 );
 

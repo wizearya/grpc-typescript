@@ -33,6 +33,3 @@ $ npm start
 ```
 $ npm run client
 ```
-
-## License
-MIT
