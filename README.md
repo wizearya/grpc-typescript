@@ -1,7 +1,7 @@
 ## Description
 gRPC with typescript using random api
-using node v12.16.0
-using gRPC v1.2.4
+- using node v12.16.0
+- using gRPC v1.2.4
 
 ## Requirement
 - protobuf
