@@ -1,0 +1,38 @@
+{
+  "name": "grpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "ts-node ./client.ts",
+    "server": "npm run build && node dist/server.js",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/google-protobuf": "^3.7.2",
+    "@types/ip": "^1.1.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "grpc-tools": "^1.6.6",
+    "grpc_tools_node_protoc_ts": "^2.4.2",
+    "ts-loader": "^5.3.1",
+    "ts-node": "^7.0.1",
+    "tsconfig-paths": "^3.7.0",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "@types/request-promise": "^4.1.42",
+    "express": "^4.16.4",
+    "google-protobuf": "^3.8.0-rc.1",
+    "ip": "^1.1.5",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
