@@ -1,6 +1,6 @@
 {
   "name": "grpc",
-  "version": "1.0.0",
+  "version": "1.2.4",
   "description": "",
   "main": "dist/server.js",
   "scripts": {
@@ -13,26 +13,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/express": "^4.16.1",
     "@types/google-protobuf": "^3.7.2",
-    "@types/ip": "^1.1.0",
     "awesome-typescript-loader": "^5.2.1",
-    "grpc-tools": "^1.8.1",
-    "grpc_tools_node_protoc_ts": "^2.4.2",
-    "ts-loader": "^5.3.1",
-    "ts-node": "^7.0.1",
-    "tsconfig-paths": "^3.7.0",
-    "typescript": "^3.2.2",
-    "webpack": "^4.28.0",
-    "webpack-cli": "^3.1.2",
+    "grpc": "1.24.2",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
-    "@types/request-promise": "^4.1.42",
-    "express": "^4.16.4",
-    "google-protobuf": "^3.8.0-rc.1",
-    "ip": "^1.1.5",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.2"
+    "@types/request-promise": "^4.1.45",
+    "google-protobuf": "^3.11.4",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
   }
 }
