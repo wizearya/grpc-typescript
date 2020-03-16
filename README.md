@@ -19,17 +19,12 @@ $ brew install protobuf
 $ npm i 
 ```
 
-3. compile protobuf
+3. server run
 ```
-$ sh generate.sh
-```
-
-4. server run
-```
-$ npm start
+$ npm run server
 ```
 
-5. client call
+4. client call
 ```
 $ npm run client
 ```
