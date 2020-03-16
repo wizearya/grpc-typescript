@@ -5,6 +5,12 @@ gRPC with typescript using random api
 ## Requirement
 - protobuf
 
+## Used Command
+- command compile protobuf - ファイルを自動作成します。
+```
+$ sh generate.sh
+```
+
 ## Usage
 1. install protobuf by homebrew
 ```
