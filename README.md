@@ -1,5 +1,5 @@
 ## Description
-gRPC with typescript
+gRPC with typescript using random api
 
 
 ## Requirement
